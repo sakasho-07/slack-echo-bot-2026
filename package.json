@@ -14,5 +14,10 @@
     "@slack/bolt": "^5.1.0",
     "@vercel/slack-bolt": "^1.7.3",
     "dotenv": "^18.0.9"
+  },
+  "overrides": {
+    "@vercel/cli-config": {
+      "zod": "4.6.7"
+    }
   }
 }
